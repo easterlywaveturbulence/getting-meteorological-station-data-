@@ -6,7 +6,7 @@ from meteostat import Stations, Point, Daily,Hourly
 import matplotlib.dates as mdates
 import numpy as np
 import statsmodels.api as sm
-
+#API需要外网
 # 获取气象站点
 stations = Stations()
 stations1 = stations.nearby(30, 112)
